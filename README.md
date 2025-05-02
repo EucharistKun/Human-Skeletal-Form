@@ -2,11 +2,11 @@
 Deep learning models and code for quality control (QC) and human pose estimation (HPE). Both QC and HPE heavily utilize transfer learning and are built upon FastAIV2 and HRNet (deep-high-resolution-net.pytorch) respectively. Training images were chosen by hand from UKB bulk download FID 20158. Examples of how to build your own training models are included as well as code for deployment on existing datasets. 
 
 ## Deep learning based quality-control
-Check .yml file for conda environment dependencies
-
 Download models from Box Drive: https://utexas.box.com/s/n1aqy4k8a0ms6li3kh40k9n03zbz8aw7
 
-Apply to own dataset by defining custom functions and loading the model as described in the Jupyter Notebooks
+Inside QC_files folder:
+- Check .yml file for conda environment dependencies
+- Apply to own dataset by defining custom functions and loading the model as described in the Jupyter Notebooks
 
 
 ## Human Pose Estimation
